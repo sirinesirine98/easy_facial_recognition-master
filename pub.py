@@ -14,6 +14,7 @@ client_id = f'python-mqtt-{random.randint(0, 1000)}'
 username = 'ghada'
 password = 'ghada'
 
+
 def connect_mqtt():
     def on_connect(client, userdata, flags, rc):
         if rc == 0:
